@@ -4,7 +4,7 @@ This repository contains a modular Python-based system to parse question-answer 
 
 ## Overview
 
-The system processes a conversation transcript (e.g., "User: How are you?\nAssistant: I'm fine.") through four discrete stages:
+The system processes a conversation transcript (e.g., "User: How are you? Assistant: I'm fine.") through four discrete stages:
 1. **Parsing**: Splits the transcript into individual turns.
 2. **Question Classification**: Identifies user questions using a pre-trained BERT model.
 3. **Pairing and Verification**: Pairs questions with answers and verifies them using semantic similarity.
